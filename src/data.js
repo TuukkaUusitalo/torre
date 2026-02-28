@@ -18,7 +18,7 @@ export const partner = [
 ];
 
 export const socialLinks = [
-  { id: 0, href: "https://chat.whatsapp.com/JPhol4gvpCx9xB5FEXWqSd", icon: "FaWhatsapp", text: "WhatsApp Community" },
+  { id: 0, href: "http...", icon: "FaWhatsapp", text: "WhatsApp Community" },
   // { id: 1, href: "https://www.facebook.com", icon: "fab fa-facebook" },
   // { id: 2, href: "https://www.x.com", icon: "fab fa-x-twitter" },
   // { id: 3, href: "https://www.squarespace.com/", icon: "fab fa-squarespace" },
@@ -88,7 +88,7 @@ export const tours = [
     id: 3,
     image: fysio,
     title: "Fysio- ja lymfaterapia sekä faskiamanipulaatio",
-    info: `Tarjoan fysioterapiaa sisältäen faskiamanipulaatiohoitoja, hierontaa sekä ohjausta ja neuvontaa. Toimin Torreviejan Lago Jardinissa sekä lähialueilla, ja tarjoan palveluitani myös yrityksille ja yhteisöille. Erikoisosaamistani fysioterapian lisäksi on lymfaterapia. Lisäksi hoidan huimauksesta ja purentaongelmista kärsiviä asiakkaita. Ota rohkeasti yhteyttä ajanvaraukseen tai vaivoihisi liittyvissä asioissa.`,
+    info: `Tarjoan mm. fysioterapiaa, faskiamanipulaatiohoitoja, hierontaa sekä ohjausta ja neuvontaa. Toimin Torreviejan Lago Jardinissa sekä lähialueilla, ja tarjoan palveluitani myös yrityksille ja yhteisöille. Erikoisosaamistani fysioterapian lisäksi on lymfaterapia. Lisäksi hoidan huimauksesta ja purentaongelmista kärsiviä asiakkaita. Ota rohkeasti yhteyttä ajanvaraukseen tai vaivoihisi liittyvissä asioissa.`,
     hasModal: true,
     eventTitle: "Ajanvaraus ja hinnat",
     eventInfo: `riitta.uusitalo69@gmail.com  tai  +358 45 111 3263. Hinnat: Manuaalinen käsittely: 30 min - 40€, 45 min - 65€ ja 60 min - 75€`,
@@ -157,7 +157,7 @@ export const blogi = [
     p1: `Täytyy sanoa, että meillä on aivan ihanat naapurit yläkerrassa. He ovat espanjalaisia, aivan 
     huippuja! Erityistä espanjalaisesta kulttuurista ja ja ihmisistä tekevät juurikin erilaiset tapahtumat. 
     Täällä on paljon kivoja tapahtumia ja aktiviteetteja, kuten pyöräily- ja juoksutapahtumia, 
-    jalkappallo-otteluita ja padelia sekä erilaisia juhlia, hieman vuodenajan mukaan vaihdellen. 
+    jalkapallo-otteluita ja padelia sekä erilaisia juhlia, hieman vuodenajan mukaan vaihdellen. 
     Juuri tällaisista tapahtumista olemme saaneet uusia ystäviä, sillä juuri ne yhdistävät ihmisiä ja 
     vetävät väkeä puoleensa, vieläpä monesti koko perheen voimin nuorimmasta vanhimpaan.`,
     p2: `On upeaa, että Espanjalaisilla yhteistä aikaa on koko perheen voimin — ystävät ovat tärkeitä. 

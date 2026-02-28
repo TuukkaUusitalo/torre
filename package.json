@@ -2,7 +2,7 @@
   "name": "react-router-example",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://TuukkaUusitalo.github.io/gyytiWeb2",
+  "homepage": "https://TuukkaUusitalo.github.io/torre",
   "type": "module",
   "scripts": {
     "dev": "vite",

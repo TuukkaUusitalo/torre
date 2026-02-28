@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="nav-header">
       <HashLink smooth to="#home">
-        <img src={logo} className="nav-logo" alt="Gyyti" />
+        <img src={logo} className="nav-logo" alt="Riitta" />
       </HashLink>
 {/*
       <button type="button" className="nav-toggle" id="nav-toggle">
