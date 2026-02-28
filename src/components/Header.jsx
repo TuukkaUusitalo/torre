@@ -1,4 +1,4 @@
-import logo from '../assets/images/logo_new2.png'
+import logo from '../assets/images/riitta2.webp'
 import { HashLink } from "react-router-hash-link";
 
 function Header() {
@@ -7,9 +7,11 @@ function Header() {
       <HashLink smooth to="#home">
         <img src={logo} className="nav-logo" alt="Gyyti" />
       </HashLink>
+{/*
       <button type="button" className="nav-toggle" id="nav-toggle">
         <i className="fas fa-bars" />
       </button>
+*/}
     </div>
   );
 }

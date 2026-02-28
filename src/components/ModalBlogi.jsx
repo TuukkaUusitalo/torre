@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 
-const Modal = ({ isOpen, onClose, title, pdfUrl, eventTitle, eventInfo, eventPlace, eventTime }) => {
+const ModalBlogi = ({ isOpen, onClose, title, pdfUrl, eventTitle, p1, p2, p3 }) => {
   if (!isOpen) return null;
 
   return ReactDOM.createPortal(
@@ -55,21 +55,15 @@ const Modal = ({ isOpen, onClose, title, pdfUrl, eventTitle, eventInfo, eventPla
         <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>{eventTitle}</h3>
 
         <p style={{ marginBottom: "1rem", color: "#333" }}>
-          {eventInfo}
+        {p1}
         </p>
 
-        <h3 style={{ fontSize: "1rem", marginBottom: "1rem" }}>
-          Paikka
-        </h3>
         <p style={{ marginBottom: "1rem", color: "#333" }}>
-          {eventPlace}
+        {p2}
         </p>
 
-        <h3 style={{ fontSize: "1rem", marginBottom: "1rem" }}>
-          Aika
-        </h3>
         <p style={{ marginBottom: "1rem", color: "#333" }}>
-          {eventTime}
+        {p3}
         </p>
         
 
@@ -94,4 +88,4 @@ const Modal = ({ isOpen, onClose, title, pdfUrl, eventTitle, eventInfo, eventPla
   );
 };
 
-export default Modal;
+export default ModalBlogi;

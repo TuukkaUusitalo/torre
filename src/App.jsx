@@ -8,6 +8,7 @@ import "./App.css";
 import Parnerships from "./components/Parnerships";
 import CommunitiesPage from "./components/CommunitiesPage";
 import Mission from "./components/Mission";
+import BlogiPage from "./components/BlogiPage";
 
 function App() {
   return (
@@ -15,12 +16,12 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Parnerships />
-      <Services />
+      
       {/*<Tours />*/}
       {/*<CommunityAchievements />*/}
       <CommunitiesPage />
-      <Mission />
+      <BlogiPage />
+      <Parnerships />
       <Footer />
     </div>
   );

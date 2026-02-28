@@ -4,7 +4,7 @@ import { FaWhatsapp, FaFacebook, FaTwitter, FaSquarespace } from "react-icons/fa
 
 
 const iconMap = {
-  "FaWhatsapp": <FaWhatsapp />,
+//  "FaWhatsapp": <FaWhatsapp />,
  // "fab fa-facebook": <FaFacebook />,
  // "fab fa-x-twitter": <FaTwitter />,
 //  "fab fa-squarespace": <FaSquarespace />

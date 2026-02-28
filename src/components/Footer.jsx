@@ -5,15 +5,18 @@ function Footer() {
   return (
     <footer className="section footer">
       <PageLinks parentClass="footer-links" itemClass="footer-link" />
-      <SocialLinks parentClass="footer-icons" itemClass="footer-icon"/>
-      <p style={{fontSize: '25px', textAlign: 'center'}}>
+      
+      <p style={{fontSize: '25px', textAlign: 'center', color: 'white'}}>
         Contact:
       </p>
-      <p style={{fontSize: '15px', textAlign: 'center'}}>
-        hello@gyyti.com, tuukka@gyyti.com, lauri@gyyti.com
+      <p style={{fontSize: '15px', textAlign: 'center', color: 'white'}}>
+        riitta.uusitalo69@gmail.com
+        <p style={{color: 'white'}}>
+        puh +358 45 111 3263
+        </p>
       </p>
       <p className="copyright">
-        copyright © Gyyti<span id="date">2026</span>. all rights
+        copyright © riittauusitalo™<span id="date">2026</span>. all rights
         reserved
       </p>
     </footer>

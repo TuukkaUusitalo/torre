@@ -5,38 +5,56 @@ Variables
 */
 
 :root {
-  /* dark shades of primary color*/
-  --clr-primary-1: hsl(184, 91%, 17%);
-  --clr-primary-2: hsl(185, 84%, 25%);
-  --clr-primary-3: hsl(185, 81%, 29%);
-  --clr-primary-4: hsl(214, 100%, 73%);
-  --clr-primary-4: hsl(214, 100%, 73%);
-  /* primary/main color */
-  --clr-primary-5: #75b0ff;
-  --clr-primary-5: #75b0ff;
-  /* lighter shades of primary color */
-  --clr-primary-6: hsl(214, 100%, 73%);
-  --clr-primary-6: hsl(214, 100%, 73%);
-  --clr-primary-7: hsl(184, 65%, 59%);
-  --clr-primary-8: #75b0ff;
-  --clr-primary-8: #75b0ff;
-  --clr-primary-9: hsl(185, 94%, 87%);
-  --clr-primary-10: hsl(186, 100%, 94%);
-  /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
-  /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-6: hsl(209, 23%, 60%);
-  --clr-grey-7: hsl(211, 27%, 70%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-white: #fff;
-  --ff-primary: 'Lato', sans-serif;
-  --transition: all 0.3s linear;
+  /* ========== Mediterranean Blue (Primary) ========== */
+  /* tummat sävyt hero/nav taustoihin, hover/active jne. */
+  --clr-primary-1: hsl(204, 100%, 20%);  /* Syvä välimeren sininen */
+  --clr-primary-2: hsl(203, 95%, 28%);
+  --clr-primary-3: hsl(202, 90%, 36%);
+  --clr-primary-4: hsl(201, 85%, 45%);
+  /* pääväri (käytä napeissa, linkeissä) */
+  --clr-primary-5: hsl(200, 80%, 52%);   /* Mediterranean Blue */
+  /* vaaleammat siniset (bordeihin, badgeihin, soft-taustoihin) */
+  --clr-primary-6: hsl(199, 85%, 60%);
+  --clr-primary-7: hsl(198, 90%, 68%);
+  --clr-primary-8: hsl(197, 95%, 76%);
+  --clr-primary-9: hsl(196, 100%, 85%);
+  --clr-primary-10: hsl(195, 100%, 94%);
+
+  /* ========== Sunset / Sunrise Accent (Persikka–Koralli–Oranssi) ========== */
+  --clr-accent-1: hsl(14, 80%, 30%);    /* syvä terrakotta */
+  --clr-accent-2: hsl(14, 82%, 40%);
+  --clr-accent-3: hsl(14, 85%, 50%);    /* koralli/oranssi */
+  --clr-accent-4: hsl(22, 88%, 58%);    /* lämmin oranssi */
+  --clr-accent-5: hsl(32, 90%, 65%);    /* persikka/kulta – CTA hover/huomiot */
+  --clr-accent-6: hsl(32, 95%, 75%);    /* pehmeä persikka */
+  --clr-accent-7: hsl(32, 100%, 85%);   /* hyvin vaalea */
+
+  /* ========== Sand / Beige (Neutral warm) ========== */
+  --clr-sand-1: hsl(34, 35%, 20%);      /* hyvin tumma lämmin neutraali (otsikot dark teemoihin) */
+  --clr-sand-2: hsl(34, 28%, 30%);
+  --clr-sand-3: hsl(34, 24%, 40%);
+  --clr-sand-4: hsl(34, 22%, 50%);
+  --clr-sand-5: hsl(34, 30%, 70%);      /* klassinen beige */
+  --clr-sand-6: hsl(34, 40%, 82%);      /* vaalea hiekkasävy taustoihin */
+  --clr-sand-7: hsl(34, 50%, 92%);      /* hyvin vaalea – korttien/lohkojen tausta */
+
+  /* ========== Warm Greys (tekstille) ========== */
+  /* lämpimät harmaat parantavat luettavuutta beigen päällä */
+  --clr-grey-1: hsl(215, 25%, 15%);   /* otsikot, tumma teksti */
+  --clr-grey-2: hsl(215, 20%, 22%);
+  --clr-grey-3: hsl(215, 18%, 30%);
+  --clr-grey-4: hsl(215, 16%, 38%);
+  --clr-grey-5: hsl(215, 14%, 48%);   /* leipäteksti */
+  --clr-grey-6: hsl(215, 16%, 60%);
+  --clr-grey-7: hsl(215, 18%, 72%);
+  --clr-grey-8: hsl(215, 22%, 82%);
+  --clr-grey-9: hsl(215, 28%, 91%);
+  --clr-grey-10: hsl(215, 36%, 97%);  /* lähes valkoinen */
+  --clr-white: #ffffff;
+
+  /* Typografia ja UI-yleisasetukset */
+  --ff-primary: 'Lato', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --transition: all 0.3s ease;
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -64,7 +82,7 @@ body {
   font-family: 'Ubuntu', system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Cantarell, 'Helvetica Neue', sans-serif;
   background: var(--clr-white);
-  color: var(--clr-grey-1);
+  color: var(--clr-sand-1);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -181,7 +199,7 @@ p {
 }
 
 .section-title span {
-  color: var(--clr-primary-5);
+  color: var(--clr-sand-5);
 }
 
 .section-center {
@@ -240,10 +258,10 @@ Hero
 .hero-btn {
   padding: 0.9rem 1.6rem;
   font-size: 1.25rem;
-  background: var(--clr-white);
-  color: var(--clr-primary-5);
   border-radius: 10px;
-  border-radius: 10px;
+
+  background: transparent;
+  color: var(--clr-white);
 }
 
 .hero-btn:hover {
@@ -254,8 +272,8 @@ Hero
 
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(#75b0ff, rgba(0, 0, 0, 0.3)),
-      url('./assets/images/fin4.webp') center/cover no-repeat;
+    background: linear-gradient(#1a1717, rgba(0, 0, 0, 0.01)),
+      url('./assets/images/1.webp') center/cover no-repeat;
   }
 
   .hero-banner {
@@ -303,7 +321,7 @@ About
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 0.5rem solid var(--clr-primary-5);
+    border: 0.5rem solid var(--clr-sand-4);
     box-sizing: border-box;
     top: -1.5rem;
     left: -1.5rem;
@@ -317,10 +335,7 @@ About
 
   .nav-logo {
     height: 3rem;
-  }
-
-  .nav-logo {
-    height: 3rem;
+    border-radius: 80px;
   }
 
   .about-photo {
@@ -385,11 +400,7 @@ Services
 
   .nav-logo {
     height: 3rem;
-    border-radius: 10px;
-  }
-
-  .nav-logo {
-    height: 3rem;
+    border-radius: 100px;
   }
 
   .service {
@@ -405,11 +416,7 @@ Services
 
   .nav-logo {
     height: 3rem;
-    border-radius: 10px;
-  }
-
-  .nav-logo {
-    height: 3rem;
+    border-radius: 100px;
   }
 }
 
@@ -421,10 +428,7 @@ Services
 
   .nav-logo {
     height: 3rem;
-  }
-
-  .nav-logo {
-    height: 3rem;
+    border-radius: 100px;
   }
 
   .service-icon {
@@ -536,9 +540,7 @@ Featured Tours
   }
   .nav-logo {
     height: 3rem;
-  }
-  .nav-logo {
-    height: 3rem;
+    border-radius: 100px;
   }
 }
 
@@ -548,9 +550,7 @@ Featured Tours
   }
   .nav-logo {
     height: 3rem;
-  }
-  .nav-logo {
-    height: 3rem;
+    border-radius: 100px;
   }
 }
 
@@ -560,7 +560,7 @@ Footer
 ===============
 */
 .footer {
-  background: var(--clr-grey-1);
+  background: var(--clr-sand-5);
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -751,10 +751,7 @@ PARTNERS
 
   .nav-logo {
     height: 3rem;
-  }
-
-  .nav-logo {
-    height: 3rem;
+    border-radius: 100px;
   }
 
   .nav-link {
@@ -763,7 +760,7 @@ PARTNERS
 
   .nav-link:hover {
     padding: 0;
-    color: var(--clr-primary-5);
+    color: var(--clr-sand-5);  /*Tämä on nav bari tekstien hoverin säätämiseen*/
     background: transparent;
   }
 
@@ -815,11 +812,12 @@ min-height:calc(100vh - 62px);
 @media screen and (max-width: 770px) {
   .nav-logo {
     height: 3rem;
+    border-radius: 100px;
   }
   .hero {
     min-height: 80vh; /* esim. puolet näytöstä */
-    background: linear-gradient(#75b0ff, rgba(0, 0, 0, 0.5)),
-      url('./assets/images/fin3.webp') center/cover no-repeat;
+    background: linear-gradient(#1a1717, rgba(0, 0, 0, 0.01)),
+      url('./assets/images/2.webp') center/cover no-repeat;
   }
 
   .hero-banner {
@@ -839,12 +837,13 @@ min-height:calc(100vh - 62px);
 @media screen and (max-width: 450px) {
   .nav-logo {
     height: 3rem;
+    border-radius: 100px;
   }
 
   .hero {
     min-height: 100vh; /* esim. puolet näytöstä */
-    background: linear-gradient(#75b0ff, rgba(0, 0, 0, 0.3)),
-      url('./assets/images/fin2.webp') center/cover no-repeat;
+    background: linear-gradient(#1a1717, rgba(0, 0, 0, 0.01)),
+      url('./assets/images/3.webp') center/cover no-repeat;
   }
 
   .hero-banner {

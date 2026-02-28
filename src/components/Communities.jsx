@@ -5,7 +5,7 @@ import Community from "./Community";
 const Communities = () => {
   return (
     <section className="section" id="communities">
-      <Title title="yhteisöille" subTitle="rakennettu" />
+      <Title title="palvelut &" subTitle="aktiviteetit" />
 
       <div className="section-center featured-center">
         {tours.map((tour) => {
