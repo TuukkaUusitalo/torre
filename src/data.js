@@ -105,7 +105,7 @@ export const blogi = [
     id: 1,
     image: riittaJyrki,
     title: "Kuinka kaikki alkoi",
-    info: `Tervetuloa kuuntelemaan ja keskustelemaan lihasvoiman tärkeydestä ikääntyessä. Luento on maksuton ja avoin kaikille kiinnostuneille.`,
+    info: `Aajtuksia ja muistelua lapsuudesta ja liikunnasta tähän päivään.`,
     hasModal: true,
     eventTitle: "Kuinka kaikki alkoi",
     p1: `Olen pienestä pitäen liikkunut paljon ja pitänyt urheilusta. Nuorena harrastin kilpahiihtoa, 
@@ -126,7 +126,7 @@ export const blogi = [
     id: 2,
     image: rovaniemi,
     title: "Ajatuksia opiskeluajoilta",
-    info: `Tervetuloa kuuntelemaan ja keskustelemaan lihasvoiman tärkeydestä ikääntyessä. Luento on maksuton ja avoin kaikille kiinnostuneille.`,
+    info: `Opiskeluaikojen muistelua ja ajatuksia ulkomailla asumisesta ja työskentelystä.`,
     hasModal: true,
     eventTitle: "Ajatuksia opiskeluajoilta",
     p1: `Opiskeluaikana olimme lähdössä vuodeksi Yhdysvaltoihin vaihtoon, mutta se lopulta jäi 
@@ -151,7 +151,7 @@ export const blogi = [
     id: 3,
     image: sunset,
     title: "Ystävät auringon alla",
-    info: `Tervetuloa kuuntelemaan ja keskustelemaan lihasvoiman tärkeydestä ikääntyessä. Luento on maksuton ja avoin kaikille kiinnostuneille.`,
+    info: `Mikä vetää meitä Espanjaan? Ystävät, tapahtumat ja yhteisöllisyys. Näistä asioista on kyse tässä blogitekstissä.`,
     hasModal: true,
     eventTitle: "Ystävät auringon alla",
     p1: `Täytyy sanoa, että meillä on aivan ihanat naapurit yläkerrassa. He ovat espanjalaisia, aivan 
